@@ -1,78 +1,143 @@
-    /* Sticky footer styles
-      -------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+ 
+
+@media (max-width: 340px) and (min-width: 310px){
+  
+  .responsive{
+    padding:2%;
+  }
+  .twocircle{
+    margin-left:10%;
+  }
+  .onecircle{
+    margin-left:30%;
+  }
+  #footer{
+    background-color: blue;
+  }
+}
+
+@media (max-width: 380px) and (min-width: 340px){
+  
+  .responsive{
+    padding:3%;
+  }
+  .twocircle{
+    margin-left:14%;
+  }
+  .onecircle{
+    margin-left:34%;
+  }
+}
+
+ 
+@media (max-width: 500px) and (min-width: 430px){
+  #footer{
+    background-color: black;
+  }
+  
+  .responsive{
+    padding:4%;
+  }
+  .twocircle{
+    margin-left:20%;
+  }
+  .onecircle{
+    margin-left:35%;
+  }
+}
+
+@media (max-width: 580px) and (min-width: 500px){
+  #footer{
+    background-color: red;
+  }
+  
+  .responsive{
+    padding:5%;
+  }
+  .twocircle{
+    margin-left:23%;
+  }
+  .onecircle{
+    margin-left:38%;
+  }
+}
+
+@media (max-width: 610px) and (min-width: 580px){
+  
+  .responsive{
+    padding:5%;
+  }
+  .twocircle{
+    margin-left:23%;
+  }
+  .onecircle{
+    margin-left:38%;
+  }
+}
+
+@media (max-width: 429px) and (min-width: 380px){
+  
+  .responsive{
+    padding:3%;
+  }
+  .twocircle{
+    margin-left:18%;
+  }
+  .onecircle{
+    margin-left:35%;
+  }
+}
+
+
       
-       html,
-      body {
-        height: 100%;
-        /* The html and body elements cannot have any padding or margin. */
-      }
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
-
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
-      
-      @media all
-and (min-device-width : 430px) 
-and (max-device-width : 500px) {
-
-.responsive{
-padding:4%;
+.container-fluid{
+  width:100%;
 }
-.twocircle{
-margin-left:20%;
+h1, h2, h3, h4 {
+ 		 font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
-.onecircle{
-margin-left:35%;
-}
-}
-      
-      .container-fluid{
-      width:100%;
-      }
-    	  h1, h2, h3, h4 {
-   		 		 font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-        }
-        
-        .responsive {display:block;width:auto;height:auto;border-radius:50%;  color:#666; font-size 1em; text-align:center;text-decoration:none;text-shadow:0 1px 0 #fff;background:#ddd; margin-right: 20px; line-height:2em; border: 3px solid #ccc; padding: 4%; }
-        
 
-        .top{
-        float:left;
-        margin-right:20px; 
-        }
-        .onecircle{
-        margin-left:30%;
-        height:auto;
-        }
-				
-				.twocircle{
-				height:auto;
-				margin-left:12%;
-				}
-				.responsive span {width: 50%; display: table; margin: 0 auto; padding: 30% 10%;  }
+.responsive {display:block;width:auto;height:auto;border-radius:50%;  color:#666; font-size 1em; text-align:center;text-decoration:none;text-shadow:0 1px 0 #fff;background:#ddd; margin-right: 20px; line-height:2em; border: 3px solid #ccc; }
+
+
+.top{
+  float:left;
+  margin-right:20px; 
+}
+
+.responsive span {width: 50%; display: table; margin: 0 auto; padding: 30% 10%;  }
 
 
