@@ -10,13 +10,13 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-  margin: 0 auto -60px;
+  margin: 0 auto -40px;
 }
 
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-  height: 60px;
+  height: 40px;
 }
 #footer {
   background-color: #f5f5f5;
@@ -33,7 +33,7 @@ body {
 }
  
 
-@media (max-width: 340px) and (min-width: 310px){
+@media (max-width: 340px) and (min-width: 300px){
   
   .responsive{
     padding:2%;
@@ -43,9 +43,6 @@ body {
   }
   .onecircle{
     margin-left:30%;
-  }
-  #footer{
-    background-color: blue;
   }
 }
 
@@ -63,11 +60,7 @@ body {
 }
 
  
-@media (max-width: 500px) and (min-width: 430px){
-  #footer{
-    background-color: black;
-  }
-  
+@media (max-width: 500px) and (min-width: 430px){  
   .responsive{
     padding:4%;
   }
@@ -80,9 +73,6 @@ body {
 }
 
 @media (max-width: 580px) and (min-width: 500px){
-  #footer{
-    background-color: red;
-  }
   
   .responsive{
     padding:5%;
@@ -106,6 +96,49 @@ body {
   .onecircle{
     margin-left:38%;
   }
+}
+
+@media (max-width: 695px) and (min-width: 610px){
+  
+  .responsive{
+    padding:6%;
+  }
+  .twocircle{
+    margin-left:27%;
+  }
+  .onecircle{
+    margin-left:41%;
+  }
+}
+
+  @media (max-width: 755px) and (min-width: 696px){
+  
+  .responsive{
+    padding:7%;
+  }
+  .twocircle{
+    margin-left:27%;
+  }
+  .onecircle{
+    margin-left:41%;
+  }
+
+}
+  @media (max-width: 800px) and (min-width: 756px){
+    .body{
+      width: 760px;
+    }
+  
+  .responsive{
+    padding:7%;
+  }
+  .twocircle{
+    margin-left:29%;
+  }
+  .onecircle{
+    margin-left:42%;
+  }
+
 }
 
 @media (max-width: 429px) and (min-width: 380px){
